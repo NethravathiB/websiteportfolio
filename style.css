@@ -1,0 +1,138 @@
+*{
+    margin:none;
+    padding:none;
+    }
+    
+    body{
+    background:#FFC0CB;
+    
+    font size:12pt;
+    font family:serif;
+    }
+    
+    
+    
+    header{
+    overflow:hidden;
+    }
+    #top-bar{
+    text-align:center;
+    }
+    #menu{
+    float:right;
+     
+    }
+    
+    #menu ul{
+    
+        float: right;
+        margin: none;
+    }
+    
+    #menu li{
+    display:inline-block;
+    border-style:solid;
+    
+    }
+    
+    #menu li a{
+    display:inline-block;
+    padding:0em 1.5em;
+    text-decoration:none;
+    font-weight:600;
+    text-transform:uppercase;
+    color:#513B1C;
+    }
+    
+    #menu li:hover a{
+    color:#FFFFFF;
+    background:#43302E;
+    }
+    
+    
+    
+    #img{
+    top:20px;
+    position:relative;
+    margin: 0px 250px;
+    }
+    #img-text h1{
+    position:absolute;
+    top:20%;
+    left:5%;
+    }
+    #img-text p{
+    position:absolute;
+    top:70%;
+    left:70%;
+    font-size:20px;
+    }
+    
+    main{
+    overflow:hidden
+    }
+    
+    #section1{
+    overflow:hidden;
+    margin-top:30px;
+    position:relative;
+    text align:center;
+    border-top:1px solid rgba(0,0,0,0.2)
+    
+    }
+    
+    .row #photo,
+    .row #text{
+    float:left;
+    width:320px;
+    
+    }
+    
+    .row #photo{
+    margin-left:300px;
+    margin-top:30px;
+    }
+    
+    
+    .row #text{
+    text-align:center;
+    margin-left:none;
+    margin-right:300px;
+    margin-top:50px;
+    }
+    
+    .row #text h{
+    font-size:70px;
+    margin:20em 0em;
+    }
+    
+    .row #text p1{
+    margin:10em 0em;
+    font-size:30px;
+    }
+    
+    .row #text p2{
+    font-weight:300;
+    }
+    
+    .container{
+    overflow:hidden;
+    text-align:center;
+    margin-top:5em;
+    background:#C9C0BB;
+    padding:3em 0em;
+    }
+    
+    .row #col1,
+    .row #col2,
+    .row #col3{
+    float:left;
+    width:320px;
+    padding:0px 40px 0px 40px;
+    }
+    
+    .row #icon{
+    display:block;
+    margin-bottom:1em;
+    font-size:3em;
+    }
